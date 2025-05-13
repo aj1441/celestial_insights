@@ -2,7 +2,7 @@ import { useState } from 'react';
 import SignSelector from './components/SignSelector';
 import HoroscopeDisplay from './components/HoroscopeDisplay.jsx';
 import { fetchAstrologyData } from './api/astrologer';
-import { generateHoroscope } from './api/aiGenerator';
+import { generateHoroscope } from './api/aiGenerator.js';
 import ThemeSelector from './components/ThemeSelector';
 import Loader from './components/Loader';
 import './styles/app.css';
